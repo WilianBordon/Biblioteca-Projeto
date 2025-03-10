@@ -44,14 +44,20 @@ Este é um sistema de gerenciamento de biblioteca desenvolvido em **Java**, util
 
 ## Exemplo de Uso
 ```
-===== Sistema de Gerenciamento de Biblioteca =====
-1. Cadastrar Livro
-2. Cadastrar Usuário
-3. Emprestar Livro
-4. Devolver Livro
-5. Listar Livros Disponíveis
-6. Sair
-Escolha uma opção: _
+System.out.println(" \n======================================   ");
+            System.out.println("SISTEMA DE GERENCIAMENTO DE BIBLIOTECA   ");
+            System.out.println("======================================\n ");
+            System.out.println("1 - Cadastrar Livro");
+            System.out.println("2️ - Cadastrar Usuário");
+            System.out.println("3️ - Emprestar Livro");
+            System.out.println("4️ - Devolver Livro");
+            System.out.println("5 - Listar Livros Disponíveis");
+            System.out.println("6️ - Listar Usuários Cadastrados");
+            System.out.println("7️ - Listar Todos os Livros");
+            System.out.println("8 - Excluir Usuário");
+            System.out.println("9️ - Excluir Livro");
+            System.out.println("0️ - Sair\n");
+            System.out.print("Escolha uma opção: ");
 ```
 
 
